@@ -1,5 +1,5 @@
 {
-    "_type": "https://openminds.ebrains.eu/ephys/CranialWindowPreparation",
+    "_type": "https://openminds.ebrains.eu/specimens/CranialWindowPreparation",
     "_extends": "/core/research/experimentalActivity.schema.tpl.json",
     "required": [
         "reinforcementType",
