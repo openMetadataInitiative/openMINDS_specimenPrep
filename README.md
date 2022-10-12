@@ -1,8 +1,8 @@
 # openMINDS_specimens
 A metadata model for specimen preparation in neuroscience; an openMINDS extension
 
-<a href="https://github.com/HumanBrainProject/openMINDS_computation/blob/v1/img/light_openMINDS-comp-logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS_computation/blob/v1/img/light_openMINDS-comp-logo.png" alt="openMINDS computation logo" title="openMINDS computation" align="right" height="70" />
+<a href="https://github.com/HumanBrainProject/openMINDS_specimens/blob/v1/img/light_openMINDS-specimens-logo.png">
+    <img src="https://github.com/HumanBrainProject/openMINDS/blob/main/img/light_openMINDS-logo.png" alt="openMINDS specimens logo" title="openMINDS specimen preparation" align="right" height="70" />
 </a>
 
 The **openMINDS_specimens** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata about specimen preparation (cell culture, surgery, tissue slicing, etc.)
