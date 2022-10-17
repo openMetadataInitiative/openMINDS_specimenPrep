@@ -1,7 +1,9 @@
 {
-  "_type": "https://openminds.ebrains.eu/specimens/TissueCulturePreparation",
-  "_extends": "/core/research/ExperimentalActivity.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+  "_extends": "/core/schemas/research/ExperimentalActivity.schema.tpl.json",
   "required": [
+    "input",
+    "output",
     "cultureType",
     "cultureMedium"
   ],
@@ -15,10 +17,11 @@
     "cultureMedium": {
       "_instruction": "Solution the culture was maintained in prior to the experiment",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/chemicalMixture"
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
       ]
     },
     "input": {
+      "_instruction": "Add the state of the subject(s) or tissue(s) from which the culture was prepared.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -27,6 +30,7 @@
       ]
     },
     "output": {
+      "_instruction": "Add the state of the prepared cell culture.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]

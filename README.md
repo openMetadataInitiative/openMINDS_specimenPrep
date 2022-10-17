@@ -1,11 +1,11 @@
-# openMINDS_specimens
+# openMINDS_specimenPrep
 A metadata model for specimen preparation in neuroscience; an openMINDS extension
 
-<a href="https://github.com/HumanBrainProject/openMINDS_specimens/blob/v1/img/light_openMINDS-specimens-logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS/blob/main/img/light_openMINDS-logo.png" alt="openMINDS specimens logo" title="openMINDS specimen preparation" align="right" height="70" />
+<a href="https://github.com/HumanBrainProject/openMINDS_specimenPrep/blob/v1/img/light_openMINDS-specimenPrep-logo.png">
+    <img src="https://github.com/HumanBrainProject/openMINDS/blob/main/img/light_openMINDS-logo.png" alt="openMINDS specimenPrep logo" title="openMINDS specimen preparation" align="right" height="70" />
 </a>
 
-The **openMINDS_specimens** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata about specimen preparation (cell culture, surgery, tissue slicing, etc.)
+The **openMINDS_specimenPrep** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS core, by providing schema-templates for adding metadata about specimen preparation (cell culture, surgery, tissue slicing, etc.)
 
 The major versions are developed and maintained in different version-branches. The default branch is always the latest version-branch.
 **Each version can be accessed by checking out the corresponding version-branch.** No major version branch has yet been released. This README describes the development branch ("main").

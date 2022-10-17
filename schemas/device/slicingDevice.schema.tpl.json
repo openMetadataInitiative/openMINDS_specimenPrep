@@ -1,7 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/specimens/SlicingDevice",
+  "_type": "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
   "_categories": [
     "setupComponent"
   ],
-  "_extends": "/core/products/Device.schema.tpl.json"
+  "_extends": "/core/schemas/products/Device.schema.tpl.json"
 }

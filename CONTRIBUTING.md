@@ -22,23 +22,23 @@ In particular, general feedback and questions are welcome through our support-em
 
 It is also possible to request new features or report bugs this way, but in these cases we prefer if you could raise an issue on the respective GitHub repository (see below).
 
-If you write us an email, please make sure that you provide a meaningful subject that describes your concern. If your concern is not of general nature, please name the affected GitHub repository and file in your email. In particular for bug reports, provide us with a screen shot or copy of your error message (where applicable). 
+If you write us an email, please make sure that you provide a meaningful subject that describes your concern. If your concern is not of general nature, please name the affected GitHub repository and file in your email. In particular for bug reports, provide us with a screen shot or copy of your error message (where applicable).
 
 You can also report and ask questions through the issue tracker of this GitHub repository. However, if your concern is of general nature or affecting the central openMINDS repository, please consider raising an issue on the central openMINDS repository instead.
 
-If you raise an issue, please make sure that you provide a short meaningful title and a more detailed description that declares your concern. In particular for bug reports, provide us with a screen shot or copy of your error message (where applicable). 
+If you raise an issue, please make sure that you provide a short meaningful title and a more detailed description that declares your concern. In particular for bug reports, provide us with a screen shot or copy of your error message (where applicable).
 
 [BACK TO TOP](#top)
 
 ## Direct contributions <a name="direct-contributions"/>
 
-If you want to contribute to the openMINDS_specimens repository directly, feel free to fork it and open pull requests with your changes. Note, that larger changes and new features should be first raised and discussed as an issue before making a pull request. Minor bug fixes can, of course, still be made directly as a pull request without raising an issue first. Direct contributions to one of the other openMINDS metadata models, the openMINDS generator or openMINDS (central) should be made on the respective GitHub repository.
+If you want to contribute to the openMINDS_specimenPrep repository directly, feel free to fork it and open pull requests with your changes. Note, that larger changes and new features should be first raised and discussed as an issue before making a pull request. Minor bug fixes can, of course, still be made directly as a pull request without raising an issue first. Direct contributions to one of the other openMINDS metadata models, the openMINDS generator or openMINDS (central) should be made on the respective GitHub repository.
 
-Please be aware that on any openMINDS version branch which has an official release tag in place, only backwards compatible changes are accepted. This can include corrections of typos in instructions, introduction of additional properties to schemas, loosening constraints on expected value numbers or formats, granting additional relations between schemas, and adding new schemas (if they do not require relational changes in existing schemas). Except for typo corrections, these changes (if accepted) are typically later tagged as sub-releases for the respective major version (e.g., v1.1) by the openMINDS development team. 
+Please be aware that on any openMINDS version branch which has an official release tag in place, only backwards compatible changes are accepted. This can include corrections of typos in instructions, introduction of additional properties to schemas, loosening constraints on expected value numbers or formats, granting additional relations between schemas, and adding new schemas (if they do not require relational changes in existing schemas). Except for typo corrections, these changes (if accepted) are typically later tagged as sub-releases for the respective major version (e.g., v1.1) by the openMINDS development team.
 
 Non-backwards compatible changes are only accepted for version branches that do not have an official release tag yet, or lead to the creation of a new version branch (with a respectively increased major version number). This is true for renaming of existing properties, increasing constraints on expected value numbers or formats, removing relations between schemas and adding new schemas, if they cause relational changes in existing schemas.
 
-For all contributions, make sure that you describe well what you plan to do / have done to speed up the evaluation / review process of your issue / pull request. The assigned member of the openMINDS development team will get back to you as soon as possible to discuss or give the blessing to your contribution. Note that, all contributing community members are welcome to provide comments on active issues and pull requests. 
+For all contributions, make sure that you describe well what you plan to do / have done to speed up the evaluation / review process of your issue / pull request. The assigned member of the openMINDS development team will get back to you as soon as possible to discuss or give the blessing to your contribution. Note that, all contributing community members are welcome to provide comments on active issues and pull requests.
 
 [BACK TO TOP](#top)
 
@@ -52,20 +52,20 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 #### Our standards
 
-Examples of behavior that contributes to creating a positive environment include:  
-**+** using welcoming and inclusive language  
-**+** being respectful of differing viewpoints and experiences  
-**+** gracefully accepting constructive criticism  
-**+** focusing on what is best for the community  
-**+** showing empathy towards other community members  
+Examples of behavior that contributes to creating a positive environment include:
+**+** using welcoming and inclusive language
+**+** being respectful of differing viewpoints and experiences
+**+** gracefully accepting constructive criticism
+**+** focusing on what is best for the community
+**+** showing empathy towards other community members
 
-Examples of unacceptable behavior by participants include:  
-**-** use of sexualized language or imagery  
-**-** unwelcome sexual attention or advances  
-**-** trolling, insulting/derogatory comments, and personal or political attacks  
-**-** public or private harassment  
-**-** publishing others' private information (e.g., email address) without explicit permission  
-**-** other conduct which could reasonably be considered inappropriate in a professional setting  
+Examples of unacceptable behavior by participants include:
+**-** use of sexualized language or imagery
+**-** unwelcome sexual attention or advances
+**-** trolling, insulting/derogatory comments, and personal or political attacks
+**-** public or private harassment
+**-** publishing others' private information (e.g., email address) without explicit permission
+**-** other conduct which could reasonably be considered inappropriate in a professional setting
 
 #### Our responsibility
 

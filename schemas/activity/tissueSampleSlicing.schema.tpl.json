@@ -1,9 +1,14 @@
 {
-  "_type": "https://openminds.ebrains.eu/specimens/TissueSampleSlicing",
-  "_extends": "/core/research/ExperimentalActivity.schema.tpl.json",
-  "required": [],
+  "_type": "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+  "_extends": "/core/schemas/research/ExperimentalActivity.schema.tpl.json",
+  "required": [
+    "input",
+    "output",
+    "slicingDevice"
+  ],
   "properties": {
     "input": {
+      "_instruction": "Add the state of the subject(s) or tissue(s) prior to slicing.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -12,26 +17,30 @@
       ]
     },
     "output": {
+      "_instruction": "Add the state of the tissue slices after slicing.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState"
       ]
     },
-    "SlicingDevice": {
+    "slicingDevice": {
       "_instruction": "Add the device used to cut the tissue sample.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/specimens/SlicingDeviceUsage",
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
         "https://openminds.ebrains.eu/controlledTerms/DeviceType"
       ]
     },
     "tissueBathSolution": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/chemicalMixture"
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
       ],
-      "_instruction": "Solution in which the brain was sliced (e.g. Ringer's solution)"
+      "_instruction": "Solution in which the tissue sample was sliced (e.g. Ringer's solution)"
     },
     "temperature": {
-      "_instruction": "Define the temperature of the sample during the activity.",
+      "_instruction": "Define the temperature of the tissue sample during the activity.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"

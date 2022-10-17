@@ -1,0 +1,48 @@
+{
+  "_extends": "/core/schemas/research/experimentalActivity.schema.tpl.json",
+  "required": [
+    "input",
+    "output",
+    "device"
+  ],
+  "properties": {
+    "device": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the devices placed by this activity",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "setup": {
+      "_instruction": "Add the setup that was used for device placement.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Setup"
+      ]
+    },
+    "targetPosition": {
+      "_instruction": "Add the general target position for the device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition"
+      ]
+    },
+    "input": {
+      "_instruction": "Add the state of the specimen into/onto which the device was placed, before the device was placed.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    },
+    "output": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the state of the specimen after the device was placed, or the specimens created by this activity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    }
+  }
+}
