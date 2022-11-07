@@ -7,23 +7,14 @@
   ],
   "properties": {
     "device": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add the devices placed by this activity",
+      "_instruction": "Add the devices placed by this activity.",
       "_linkedCategories": [
         "deviceUsage"
       ]
     },
-    "setup": {
-      "_instruction": "Add the setup that was used for device placement.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Setup"
-      ]
-    },
     "targetPosition": {
       "_instruction": "Add the general target position for the device.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition"
       ]
     },

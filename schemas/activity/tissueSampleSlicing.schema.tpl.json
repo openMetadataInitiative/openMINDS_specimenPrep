@@ -11,7 +11,6 @@
       "_instruction": "Add the state of the subject(s) or tissue(s) prior to slicing.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
@@ -29,8 +28,7 @@
     "slicingDevice": {
       "_instruction": "Add the device used to cut the tissue sample.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
-        "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
       ]
     },
     "tissueBathSolution": {
