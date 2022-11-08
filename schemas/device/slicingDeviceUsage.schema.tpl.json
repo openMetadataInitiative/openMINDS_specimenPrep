@@ -4,10 +4,17 @@
     "deviceUsage"
   ],
   "required": [
-    "cuttingThickness",
+    "device",
+    "sliceThickness",
     "slicingPlane"
   ],
   "properties": {
+    "device": {
+      "_instruction": "Add the slicing device used.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+      ]
+    },
     "slicingSpeed": {
       "_instruction": "Define the slicing speed used in this tissue sample slicing.",
       "_embeddedTypes": [
@@ -21,7 +28,7 @@
       ]
     },
     "sliceThickness": {
-      "_instruction": "Slice thickness",
+      "_instruction": "Define slice thickness used in this tissue sample slicing.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"

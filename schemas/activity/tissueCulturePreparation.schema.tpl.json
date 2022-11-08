@@ -11,7 +11,7 @@
     "cultureType": {
       "_instruction": "Type of culture (e.g. primary, secondary)",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CultureType"
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
       ]
     },
     "cultureMedium": {

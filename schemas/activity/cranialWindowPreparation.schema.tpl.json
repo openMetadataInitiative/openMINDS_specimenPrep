@@ -4,9 +4,7 @@
   "required": [
     "input",
     "output",
-    "reinforcementType",
-    "constructionType",
-    "dimension"
+    "constructionType"
   ],
   "properties": {
     "reinforcementType": {
