@@ -12,12 +12,6 @@
         "deviceUsage"
       ]
     },
-    "targetPosition": {
-      "_instruction": "Add the general target position for the device.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition"
-      ]
-    },
     "input": {
       "_instruction": "Add the state of the specimen into/onto which the device was placed, before the device was placed.",
       "_linkedTypes": [
@@ -33,6 +27,12 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState",
         "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    },
+    "targetPosition": {
+      "_instruction": "Add the general target position for the device.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition"
       ]
     }
   }
