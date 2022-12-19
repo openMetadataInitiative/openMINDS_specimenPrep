@@ -3,5 +3,5 @@
   "_categories": [
     "setupComponent"
   ],
-  "_extends": "/core/schemas/products/Device.schema.tpl.json"
+  "_extends": "/core/schemas/products/device.schema.tpl.json"
 }
