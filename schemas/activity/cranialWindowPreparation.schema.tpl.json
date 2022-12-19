@@ -7,12 +7,6 @@
     "constructionType"
   ],
   "properties": {
-    "reinforcementType": {
-      "_instruction": "Add the reinforcement type for the created cranial window.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType"
-      ]
-    },
     "constructionType": {
       "_instruction": "Add the construction type of the cranial window.",
       "_linkedTypes": [
@@ -35,6 +29,12 @@
       "_instruction": "Add the state of the subject after the cranial window was created.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    },
+    "reinforcementType": {
+      "_instruction": "Add the reinforcement type for the created cranial window.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType"
       ]
     }
   }

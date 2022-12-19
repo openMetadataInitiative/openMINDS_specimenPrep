@@ -8,16 +8,16 @@
     "cultureMedium"
   ],
   "properties": {
-    "cultureType": {
-      "_instruction": "Type of culture (e.g. primary, secondary)",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
-      ]
-    },
     "cultureMedium": {
       "_instruction": "Solution the culture was maintained in prior to the experiment",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+      ]
+    },
+    "cultureType": {
+      "_instruction": "Type of culture (e.g. primary, secondary)",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
       ]
     },
     "input": {
