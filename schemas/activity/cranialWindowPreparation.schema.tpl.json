@@ -2,8 +2,6 @@
   "_type": "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
   "_extends": "/core/schemas/research/experimentalActivity.schema.tpl.json",
   "required": [
-    "input",
-    "output",
     "constructionType"
   ],
   "properties": {
@@ -14,25 +12,25 @@
       ]
     },
     "dimension": {
-      "_instruction": "Add the dimension of the cranial window.",
+      "_instruction": "Enter the dimension of the cranial window by defining its mathematical shape.",
       "_embeddedCategories": [
         "mathematicalShapes"
       ]
     },
     "input": {
-      "_instruction": "Add the state of the subject before the cranial window was created.",
+      "_instruction": "Add the state of the subject which received the cranial window during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"
       ]
     },
     "output": {
-      "_instruction": "Add the state of the subject after the cranial window was created.",
+      "_instruction": "Add the state of the subject which received the cranial window as a result of this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"
       ]
     },
     "reinforcementType": {
-      "_instruction": "Add the reinforcement type for the created cranial window.",
+      "_instruction": "Add the reinforcement type of the cranial window.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType"
       ]
