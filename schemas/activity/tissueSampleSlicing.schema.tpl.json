@@ -2,13 +2,11 @@
   "_type": "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
   "_extends": "/core/schemas/research/ExperimentalActivity.schema.tpl.json",
   "required": [
-    "input",
-    "output",
     "slicingDevice"
   ],
   "properties": {
     "input": {
-      "_instruction": "Add the state of the subject(s) or tissue(s) prior to slicing.",
+      "_instruction": "Add the state of the specimen that was sliced during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -16,33 +14,33 @@
       ]
     },
     "output": {
-      "_instruction": "Add the state of the tissue slices after slicing.",
+      "_instruction": "Add the state of the tissue sample slice or collection of slices that resulted from this activity.",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState"
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
     },
     "slicingDevice": {
-      "_instruction": "Add the device used to cut the tissue sample.",
+      "_instruction": "Add the device used to slice the tissue sample.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
       ]
     },
     "temperature": {
-      "_instruction": "Define the temperature of the tissue sample during the activity.",
+      "_instruction": "Enter the temperature at which the tissue sample was sliced during the activity.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ]
     },
-    "tissueBathSolution": {
+    "tissueBathSolution": {      
+      "_instruction": "Add the chemical mixture used as bath solution during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
-      ],
-      "_instruction": "Solution in which the tissue sample was sliced (e.g. Ringer's solution)"
+      ]
     }
   }
 }
