@@ -19,7 +19,7 @@
       ]
     },
     "input": {
-      "_instruction": "Add the state of the specimen that was used to prepare the culture from during this activity.",
+      "_instruction": "Add the state of the specimen before it was prepared as culture in this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
