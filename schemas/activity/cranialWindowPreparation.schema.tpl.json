@@ -18,7 +18,7 @@
       ]
     },
     "input": {
-      "_instruction": "Add the state of the subject which received the cranial window during this activity.",
+      "_instruction": "Add the state of the subject which received the cranial window before this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"
       ]
