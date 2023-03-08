@@ -1,11 +1,11 @@
 {
-  "_type": "https://openminds.ebrains.eu/ephys/SlicingDeviceUsage",
-  "_extends": "/core/schemas/research/deviceUsage.schema.tpl.json",  
+  "_type": "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
+  "_extends": "/core/schemas/research/deviceUsage.schema.tpl.json",
   "required": [
     "sliceThickness",
     "slicingPlane"
   ],
-  "properties": {   
+  "properties": {
     "device": {
       "_instruction": "Add the slicing device used.",
       "_linkedTypes": [
