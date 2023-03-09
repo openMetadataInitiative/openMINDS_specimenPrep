@@ -5,7 +5,10 @@
   ],
   "properties": {
     "device": {
-      "_instruction": "Add the device placed during this activity.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all devices placed during this activity.",
       "_linkedCategories": [
         "deviceUsage"
       ]
