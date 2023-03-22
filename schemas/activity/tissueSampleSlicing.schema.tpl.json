@@ -5,6 +5,12 @@
     "device"
   ],
   "properties": {
+    "device": {
+      "_instruction": "Add the device used to slice the tissue sample.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+      ]
+    },
     "input": {
       "_instruction": "Add the state of the specimen that was sliced during this activity.",
       "_linkedTypes": [
@@ -21,12 +27,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
         "https://openminds.ebrains.eu/core/TissueSampleState"
-      ]
-    },
-    "device": {
-      "_instruction": "Add the device used to slice the tissue sample.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
       ]
     },
     "temperature": {
