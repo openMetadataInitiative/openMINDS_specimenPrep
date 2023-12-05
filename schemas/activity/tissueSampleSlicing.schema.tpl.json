@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-  "_extends": "/core/schemas/research/ExperimentalActivity.schema.tpl.json",
+  "_extends": "/core/schemas/research/experimentalActivity.schema.tpl.json",
   "required": [
     "device"
   ],
@@ -36,7 +36,7 @@
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ]
     },
-    "tissueBathSolution": {      
+    "tissueBathSolution": {
       "_instruction": "Add the chemical mixture used as bath solution during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
