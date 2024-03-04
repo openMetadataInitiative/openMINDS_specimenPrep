@@ -1,6 +1,6 @@
 {
-  "_type": "https://openminds.ebrains.eu/MRI/AssessmentInstrument",
   "_extends": "/publications/schemas/creativeWork.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/specimenPrep/AssessmentInstrument",
   "required": [
     "assessmentType"
   ],
