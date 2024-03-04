@@ -1,0 +1,36 @@
+{
+  "_type": "https://openminds.ebrains.eu/MRI/PreRecordingExamination",
+  "_extends": "/core/schemas/research/experimentalActivity.schema.tpl.json",
+  "properties": {
+    "assessment": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add All the assessments aquired during this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/MRI/Assessment"
+      ]
+    },
+    "behavioralProtocol": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all behavioral protocols that were performed during this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+      ]
+    },
+    "input": {
+      "_instruction": "Add the state of the subject before this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    },
+    "output": {
+      "_instruction": "Add the state of the subject after this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    }
+  }
+}
