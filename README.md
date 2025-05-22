@@ -14,7 +14,7 @@
 The **openMINDS_specimenPrep** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS, by providing metadata schemas for in-depth descriptions of specimen preparations (surgery, tissue slicing, etc.).
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
-There you can also explore directly the :arrow_right: [**openMINDS_stimulation schema specifications**][docu-specimenPrep-url].
+There you can also explore directly the :arrow_right: [**openMINDS_specimenPrep schema specifications**][docu-specimenPrep-url].
 
 ## How to cite
 
