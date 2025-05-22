@@ -54,7 +54,7 @@ The openMINDS metadata framework is closely collaborating with the [InterLex Pro
 [contributors-url]: https://github.com/openMetadataInitiative/openMINDS_specimenPrep/graphs/contributors
 [contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_specimenPrep
 [docu-url]: https://openminds-documentation.readthedocs.io
-[docu-stimulation-url]: https://openminds-documentation.readthedocs.io/en/v3.0/schema_specifications/specimenPrep.html
+[docu-specimenPrep-url]: https://openminds-documentation.readthedocs.io/en/v3.0/schema_specifications/specimenPrep.html
 [ebrains2-doi]: https://doi.org/10.3030/101147319
 [hiball-url]: https://bigbrainproject.org/hiball.html
 [hbp-sga1-doi]: https://doi.org/10.3030/720270
@@ -63,7 +63,7 @@ The openMINDS metadata framework is closely collaborating with the [InterLex Pro
 [hbp-website]: https://www.humanbrainproject.eu
 [incf-website]: https://www.incf.org
 [interlex-dashboard]: https://scicrunch.org/scicrunch/interlex/dashboard
-[issuetracker-stimulation]: https://github.com/openMetadataInitiative/openMINDS_specimenPrep/issues
+[issuetracker-specimenPrep]: https://github.com/openMetadataInitiative/openMINDS_specimenPrep/issues
 [issuetracker-main]: https://github.com/openMetadataInitiative/openMINDS/issues
 [ks-website]: https://knowledge-space.org
 [license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS_specimenPrep/v1/LICENSE
