@@ -14,7 +14,7 @@
     "dimension": {
       "_instruction": "Enter the dimension of the cranial window by defining its mathematical shape.",
       "_embeddedCategories": [
-        "mathematicalShapes"
+        "mathematicalShape"
       ]
     },
     "input": {
