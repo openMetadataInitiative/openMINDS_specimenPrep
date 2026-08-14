@@ -33,7 +33,7 @@
     "targetPosition": {
       "_instruction": "Enter the anatomical target position for the placement of the device.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition"
+        "sands:AnatomicalTargetPosition"
       ]
     }
   }
